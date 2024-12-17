@@ -12,3 +12,5 @@ Abortion view was operationalized as a binary variable with 0 not supporting leg
 Age was operationalized as their age in numeric form, with data obtained from public records.
 
 Years in office was also operationalized in numeric form, with data obtained directly from the House of Representatives website.
+
+Voting record was operationalized as percentage of votes they participated in, in numerical form.
