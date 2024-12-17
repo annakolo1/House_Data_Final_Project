@@ -37,8 +37,6 @@ data$age[data$age == ""] <- NA
 data$age[data$age == "NA"] <- NA
 data$age <- as.numeric(data$age)
 
-mean(data$age)
-sd(data$age)
 table(data$age)
 describe(data$age)
 summary(data$age)
@@ -51,11 +49,21 @@ data$term[data$term == ""] <- NA
 data$term[data$term == "NA"] <- NA
 data$term <- as.numeric(data$term)
 
-mean(data$term)
-sd(data$term)
 table(data$term)
 describe(data$term)
 summary(data$term)
+
+#Code to View the Major Descriptive Statistics of Voting Record
+#Convert Voting Record to Numeric
+class(data$voting_record) 
+#reformat NA
+data$voting_record[data$voting_record == ""] <- NA
+data$voting_record[data$voting_record == "NA"] <- NA
+data$voting_record <- as.numeric(data$voting_record)
+
+table(data$voting_record)
+describe(data$voting_record)
+summary(data$voting_record)
 
 #Table 2 Contingency Table
 
